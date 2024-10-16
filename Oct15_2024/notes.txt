@@ -10,3 +10,5 @@ Understanding why the algorithm works:
 8. "00110111"   3 10
 9. "00101111"
 10."00011111"   
+
+for every 0 to the right of a 1, we have to perform a switch
