@@ -1,0 +1,15 @@
+334. Increasing Triplet Subsequence
+Given an integer array nums, return true if there exists a triple of indices (i, j, k) 
+such that i < j < k and nums[i] < nums[j] < nums[k]. If no such indices exists, return false.
+
+sol1:
+Using the same approach as prefix and suffix. First traverse the nums array and 
+calculate the leftmin of i elements.
+
+Then, calculate the rightmax of i elements.
+Next, compare: leftmin[i]<nums[i]<rightmax[i]
+
+sol2:
+Using the least and the second least approach. Calculating the least as firstmin
+and the second least as the secondmin, if any element greater than secondmin is present
+we find the triplet adn hence, return true.
