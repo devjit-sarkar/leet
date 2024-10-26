@@ -1,0 +1,10 @@
+283. Move Zeroes
+Given an integer array nums, move all 0's to the end of it while maintaining 
+the relative order of the non-zero elements.
+Note that you must do this in-place without making a copy of the array
+
+Approach 1:
+Erased all the zeroes and appended zeroes in the end of the nums vector.
+
+Approach 2:
+Moved all the non-zero elements to the front, and appended the zeroes in the end of the nums vector.
