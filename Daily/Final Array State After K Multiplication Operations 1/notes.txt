@@ -1,0 +1,12 @@
+3264. Final Array State After K Multiplication Operations I
+You are given an integer array nums, an integer k, and an integer multiplier.
+You need to perform k operations on nums. In each operation:
+
+Find the minimum value x in nums. If there are multiple occurrences of the minimum value, 
+select the one that appears first. Replace the selected minimum value x with x * multiplier.
+Return an integer array denoting the final state of nums after performing all k operations.
+
+Explanation:
+Using an unordered hash map, I have stored {index, value} pairs, and pushed the values in a min 
+priority queue. For k loops, top of priority queue is popped->index of the value stored->
+value manipulated->change is done in the unordered hash map.
