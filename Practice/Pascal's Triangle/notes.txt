@@ -1,0 +1,7 @@
+Given an integer numRows, return the first numRows of Pascal's triangle.
+
+In Pascal's triangle, each number is the sum of the two numbers directly above it.
+
+Initial thought:
+Since we need a vector of vector of integers, designating the task of finding the values of  
+the triangle to another function made it quite simple.
