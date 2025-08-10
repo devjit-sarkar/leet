@@ -1,0 +1,11 @@
+You are given an integer n. We reorder the digits in any order 
+(including the original order) such that the leading digit is not zero.
+
+Return true if and only if we can do this so that the resulting number 
+is a power of two.
+
+Initial thought:
+Since the numbers given can be reordered, anagram approach can be used.
+Now, to lower execution time, we can find the lowest power of 2 such that
+it has the same number of digits as the greatest number that can be formed 
+using digits of n.
